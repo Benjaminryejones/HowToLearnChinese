@@ -1,0 +1,174 @@
+/*Basic Classes*/
+.red {
+	color: $red-primary;
+}
+
+.green {
+	color: $green-primary;
+}
+
+.blue {
+	color: $blue-primary;
+}
+
+.white {
+	color: $white;
+}
+
+.black {
+	color: $black;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.textShadow {
+	text-shadow: 0px 1px 1px $black,
+	0px -1px 1px $black;
+}
+
+/*End Basic Classes*/
+
+.redHr {
+	color: $red-primary;
+	height: 2px;
+	border-width: 0;
+	background-color: $red-primary;
+	margin-top: 10px;
+}
+
+.blueHr {
+	color: $blue-primary;
+	height: 2px;
+	border-width: 0;
+	background-color: $blue-primary;
+	margin-top: 10px;
+}
+
+.greenHr {
+	color: $green-primary;
+	height: 2px;
+	border-width: 0;
+	background-color: $green-primary;
+	margin-top: 10px;
+}
+
+p {
+	font-size: 16px;
+}
+
+
+/*Menu Hover Edit*/
+#nav-main .sf-menu>li::after,
+.nav-main .sf-menu>li::after {
+	position: absolute;
+	top: 75%;
+	width: 50%;
+	left: 25%;
+	height: 2px;
+	background: rgba(204, 51, 51, 0.7);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+#nav-main .sf-menu>li:hover::after,
+.nav-main .sf-menu>li:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+/*Menu Background*/
+.headerclass {
+	background: url(http://howtolearnchinese.info/wp-content/uploads/2015/01/contemporary_china.png) repeat;
+	border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+/*Cool Sonar Class*/
+.sonar {
+	@include border-radius(50%);
+	@include opacity_transform;
+}
+
+.sonar:hover {
+	@include box-shadow(0.2s);
+	box-shadow: 0 0 0 8px rgba(247, 242, 70, .66);
+	@include scaler(.95);
+}
+
+.sonar-r {
+	@extend .sonar;
+}
+
+.sonar-r:hover {
+	@include box-shadow(0.2s);
+	box-shadow: 0 0 0 8px rgba($red-primary, .66);
+	@include scaler(.95);
+}
+
+.sonar-g {
+	@extend .sonar;
+}
+
+.sonar-g:hover {
+	@include box-shadow(0.2s);
+	box-shadow: 0 0 0 8px rgba($green-primary, .66);
+	@include scaler(.95);
+}
+
+.sonar-b {
+	@extend .sonar;
+}
+
+.sonar-b:hover {
+	@include box-shadow(0.2s);
+	box-shadow: 0 0 0 8px rgba($blue-primary, .66);
+	@include scaler(.95);
+}
+
+/*Coming Soon Class*/
+.comingSoon .comingSoonText {
+	@include opacity_transform;
+	@include border-radius(8px);
+	padding: 6px 9px;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	left: 50%;
+	color: #f4f4f4;
+	font-size: 20px;
+	line-height: 22px;
+	opacity: 0;
+	margin: -100px 0 0 -66px;
+}
+
+.comingSoon img {
+	opacity: 1;
+	position: relative;
+}
+
+.comingSoon:hover .comingSoonText {
+	@include animation(bounceIn, 1.5s);
+	opacity: 1;
+	cursor: default;
+}
+
+/*SumoMe Hide PoweredBy Link*/
+.sumome-scrollbox-popup a,
+.sumome-modal .sumome-scrollbox-preview a {
+	display: none;
+}
+
+/* Link Underline */
+a:hover {
+	text-decoration: none;
+}

@@ -1,0 +1,53 @@
+/* Variables */
+$green-primary: darken(#2ecc71, 8%);
+
+$green-light: lighten($green-primary, 20%);
+
+$red-primary: #cc3333;
+
+$blue-primary: #3498db;
+
+$white: #f4f4f4;
+
+$black: #0f0f0f;
+
+/* Mixin */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin opacity_transform {
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+@mixin box_shadow($boxshalen) {
+	-webkit-transition: box-shadow $boxshalen;
+	-moz-transition: box-shadow $boxshalen;
+	transition: box-shadow $boxshalen;
+}
+
+@mixin scaler($scaleamt) {
+	-webkit-transform: scale($scaleamt);
+	-moz-transform: scale($scaleamt);
+	-ms-transform: scale($scaleamt);
+	transform: scale($scaleamt);
+}
+
+@mixin animation($name, $anitime) {
+	-webkit-animation-duration: $anitime;
+	animation-duration: $anitime;
+	-webkit-animation-name: $name;
+	animation-name: $name;
+}
+
+/*Place Holders*/
+%coolShadow {
+	-webkit-box-shadow: 0 0 0 4px rgba(0,0,0,0.03) inset,0 0 0 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 0 0 4px rgba(0,0,0,0.03) inset,0 0 0 1px rgba(0,0,0,0.15);
+	box-shadow: 0 0 0 4px rgba(0,0,0,0.03) inset,0 0 0 1px rgba(0,0,0,0.15);
+}

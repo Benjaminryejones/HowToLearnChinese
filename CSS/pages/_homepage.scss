@@ -1,0 +1,50 @@
+/*Container*/
+#homepageContainer {
+	@extend %coolShadow;
+	background-color: #f7f7f7;
+	padding: 12px;
+	border-radius: 8px;
+}
+
+#homepageBanner {
+	background: url(http://howtolearnchinese.info/wp-content/uploads/2015/02/Lanterns-Banner.jpg);
+	display: cover;
+	margin-top: -15px;
+}
+
+#topRow {
+	@include border-radius(10px);
+	border: 1px solid rgba(0,0,0,.5);
+	margin-left: 5px;
+	margin-right: 5px;
+	background: url(http://howtolearnchinese.info/wp-content/uploads/2015/02/arches.png);
+}
+
+#chinaPic {
+	padding-left: 0px;
+	padding-right: 0px;
+	border-right: 1px solid rgba(0,0,0,.5);
+}
+
+#chinaPic img {
+	@include border-radius(10px);
+	overflow: hidden;
+}
+
+@media #{$screen-md-max} {
+	#chinaPic img {
+	display: none;
+	}
+}
+
+#chinaPic p {
+	margin-bottom: 0px;
+}
+
+.smallHeight {
+	line-height: 70%;
+}
+
+.letterSpacing {
+	letter-spacing: 2px;
+}

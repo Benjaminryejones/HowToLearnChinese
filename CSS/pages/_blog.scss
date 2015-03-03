@@ -1,0 +1,49 @@
+.entry-content {
+	@extend %coolShadow;
+	background: rgba(255,255,255,.5);
+	padding: 18px;
+	border-radius: 9px;
+}
+
+.post .entry-title,
+.post .entry-title a {
+	color: $red-primary;
+}
+
+.post .entry-title a:hover {
+	color: lighten($red-primary, 30%);
+}
+
+.postcontent {
+	@extend %coolShadow;
+	background: rgba(255,255,255,.5);
+	border: none;
+}
+
+.postlist article {
+	border: none;
+}
+
+.sidebar {
+	background: rgba(255,255,255,.5);
+	padding: 12px;
+}
+
+.review-subtitle {
+	font-size: 65%;
+	font-weight: 700%;
+	text-align: center;
+}
+
+.review-pic {
+	@include opacity_transform;
+	margin: auto;
+	padding: 1px;
+	border: 1px solid rgba(0,0,0,.5);
+	display: block;
+}
+
+.review-pic:hover {
+	@include box-shadow(0.2s);
+	box-shadow: 0 0 0 8px rgba(0,0,0, .25);
+}
