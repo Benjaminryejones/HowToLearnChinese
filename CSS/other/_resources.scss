@@ -11,6 +11,8 @@ $white: #f4f4f4;
 
 $black: #0f0f0f;
 
+$gray: darken($white, 16%);
+
 /* Mixin */
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

@@ -20,10 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style.css",
+			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style-backup.css",
 			"settings":
 			{
-				"buffer_size": 8736,
+				"buffer_size": 8621,
 				"line_ending": "Windows"
 			}
 		},
@@ -44,42 +44,55 @@
 			}
 		},
 		{
-			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_glyphicons.scss",
-			"settings":
-			{
-				"buffer_size": 86,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_breakpoints.scss",
-			"settings":
-			{
-				"buffer_size": 1108,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_homepage.scss",
-			"settings":
-			{
-				"buffer_size": 831,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_resources.scss",
 			"settings":
 			{
-				"buffer_size": 1308,
+				"buffer_size": 1337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/_Page Template.html",
+			"settings":
+			{
+				"buffer_size": 2194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Home-Page.html",
+			"settings":
+			{
+				"buffer_size": 6816,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 703,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style.css",
+			"settings":
+			{
+				"buffer_size": 8761,
 				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -135,11 +148,17 @@
 		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code",
 		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS",
 		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other",
-		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages",
-		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts"
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2"
 	],
 	"file_history":
 	[
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_breakpoints.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_homepage.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_blog.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/gulpfile.js",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/!-Sass/style.css",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_glyphicons.scss",
 		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/Home-Page.html",
 		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/functions.php",
 		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/CSS/other/_other.scss",
@@ -152,7 +171,6 @@
 		"/D/autorun.inf",
 		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/sftp-config.json",
 		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_animations.scss",
-		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_blog.scss",
 		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Intermediate Study Methods.html",
 		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/wp-config.php",
 		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/_Page Template.html",
@@ -184,7 +202,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -198,6 +216,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-3 shift-1",
+			"col-offset-1",
+			"md-",
+			"entry",
 			"\n$",
 			")\";\n",
 			"$screen-sm-max: \"only screen and (max-width: 768px)\";",
@@ -233,19 +255,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style.css",
+					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style-backup.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8736,
+						"buffer_size": 8621,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1385,
-								1385
+								7088,
+								7093
 							]
 						],
 						"settings":
@@ -258,10 +280,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 4428.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -277,8 +299,40 @@
 						"selection":
 						[
 							[
-								586,
-								586
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_other.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
 							]
 						],
 						"settings":
@@ -297,52 +351,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_other.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2823,
-								2823
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 2820.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_glyphicons.scss",
+					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_resources.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 86,
+						"buffer_size": 1337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								86,
-								86
+								208,
+								208
 							]
 						],
 						"settings":
@@ -351,7 +373,8 @@
 							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -362,95 +385,91 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_breakpoints.scss",
+					"file": "/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/_Page Template.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1108,
+						"buffer_size": 2194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								441,
-								441
+								2179,
+								2179
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_homepage.scss",
+					"file": "/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Home-Page.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 831,
+						"buffer_size": 6816,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								4170,
+								4170
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 158.0,
+						"translation.y": 1537.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_resources.scss",
+					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1308,
+						"buffer_size": 703,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								329,
-								329
+								458,
+								458
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -458,6 +477,39 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -502,6 +554,7 @@
 	{
 		"height": 130.0
 	},
+	"pinned_build_system": "",
 	"project": "How To Learn Chinese Project.sublime-project",
 	"replace":
 	{
@@ -511,6 +564,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -519,6 +573,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -527,6 +582,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],

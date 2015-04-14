@@ -1,0 +1,355 @@
+/* WORDPRESS - WordPress Theme Header.
+========================================================================== */
+/*
+Theme Name:     Chinese_Child
+Description:
+Author:         brj
+Template:       virtue_premium
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+@import url("../virtue_premium/style.css");
+/* BOURBON - Bourbon.
+========================================================================== */
+/* OTHER - The Other Elements of the CSS File.
+========================================================================== */
+/* Variables */
+/* Mixin */
+/*Place Holders*/
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+#homepageContainer, .postcontent {
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset, 0 0 0 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset, 0 0 0 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset, 0 0 0 1px rgba(0, 0, 0, 0.15); }
+
+/*Basic Classes*/
+.red {
+  color: #cc3333; }
+
+.green {
+  color: #26ab5f; }
+
+.blue {
+  color: #3498db; }
+
+.white {
+  color: #f4f4f4; }
+
+.black {
+  color: #0f0f0f; }
+
+.textCenter {
+  text-align: center; }
+
+.textShadow {
+  text-shadow: 0px 1px 1px #0f0f0f, 0px -1px 1px #0f0f0f; }
+
+/*End Basic Classes*/
+.redHr {
+  color: #cc3333;
+  height: 2px;
+  border-width: 0;
+  background-color: #cc3333;
+  margin-top: 10px; }
+
+.blueHr {
+  color: #3498db;
+  height: 2px;
+  border-width: 0;
+  background-color: #3498db;
+  margin-top: 10px; }
+
+.greenHr {
+  color: #26ab5f;
+  height: 2px;
+  border-width: 0;
+  background-color: #26ab5f;
+  margin-top: 10px; }
+
+p {
+  font-size: 16px; }
+
+/*Menu Hover Edit*/
+#nav-main .sf-menu > li::after,
+.nav-main .sf-menu > li::after {
+  position: absolute;
+  top: 75%;
+  width: 50%;
+  left: 25%;
+  height: 2px;
+  background: rgba(204, 51, 51, 0.7);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px); }
+
+#nav-main .sf-menu > li:hover::after,
+.nav-main .sf-menu > li:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px); }
+
+/*Menu Background*/
+.headerclass {
+  background: url(http://howtolearnchinese.info/wp-content/uploads/2015/01/contemporary_china.png) repeat;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
+
+/*Cool Sonar Class*/
+.sonar, .sonar-r, .sonar-g, .sonar-b {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s; }
+
+.sonar:hover, .sonar-r:hover, .sonar-g:hover, .sonar-b:hover {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 0 0 8px rgba(247, 242, 70, 0.66);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95); }
+
+.sonar-r:hover {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 0 0 8px rgba(204, 51, 51, 0.66);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95); }
+
+.sonar-g:hover {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 0 0 8px rgba(38, 171, 95, 0.66);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95); }
+
+.sonar-b:hover {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 0 0 8px rgba(52, 152, 219, 0.66);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95); }
+
+/*Coming Soon Class*/
+.comingSoon .comingSoonText {
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  padding: 6px 9px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 50%;
+  color: #f4f4f4;
+  font-size: 20px;
+  line-height: 22px;
+  opacity: 0;
+  margin: -100px 0 0 -66px; }
+
+.comingSoon img {
+  opacity: 1;
+  position: relative; }
+
+.comingSoon:hover .comingSoonText {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  opacity: 1;
+  cursor: default; }
+
+/*SumoMe Hide PoweredBy Link*/
+.sumome-scrollbox-popup a,
+.sumome-modal .sumome-scrollbox-preview a {
+  display: none; }
+
+/* Link Underline */
+a:hover {
+  text-decoration: none; }
+
+@media (min-width: 768px) {
+  .container-small {
+    width: 300px; }
+
+  .container-large {
+    width: 970px; } }
+@media (min-width: 992px) {
+  .container-small {
+    width: 500px; }
+
+  .container-large {
+    width: 1170px; } }
+@media (min-width: 1200px) {
+  .container-small {
+    width: 700px; }
+
+  .container-large {
+    width: 1500px; } }
+/*Prevent Overflow Issue*/
+.container-small, .container-large {
+  max-width: 100%; }
+
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina
+@media only screen and (max-width : 320px) {
+
+}
+*/
+/* PAGES - The Other Elements of the CSS File.
+========================================================================== */
+/*Container*/
+#homepageContainer {
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 8px; }
+
+#homepageBanner {
+  background: url(http://howtolearnchinese.info/wp-content/uploads/2015/02/Lanterns-Banner.jpg);
+  display: cover;
+  margin-top: -15px; }
+
+#topRow {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  margin-right: 5px;
+  background: url(http://howtolearnchinese.info/wp-content/uploads/2015/02/arches.png); }
+
+#chinaPic {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5); }
+
+#chinaPic img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden; }
+
+@media only screen and (max-width: 992px) {
+  #chinaPic img {
+    display: none; } }
+#chinaPic p {
+  margin-bottom: 0px; }
+
+.smallHeight {
+  line-height: 70%; }
+
+.letterSpacing {
+  letter-spacing: 2px; }
+
+.post .entry-title,
+.post .entry-title a {
+  color: #cc3333; }
+
+.post .entry-title a:hover {
+  color: #ebadad; }
+
+.postcontent {
+  background: rgba(255, 255, 255, 0.5);
+  border: none; }
+
+.postlist article {
+  border: none; }
+
+.sidebar {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 12px; }
+
+.review-subtitle {
+  font-size: 65%;
+  font-weight: 700%;
+  text-align: center; }
+
+.review-pic {
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  margin: auto;
+  padding: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: block; }
+
+.review-pic:hover {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.25); }
+
+/*ANIMATIONS - Animations for the CSS File.
+========================================================================== */
+/*Animations*/
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    opacity: 0; }
+  60% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+@-webkit-keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    opacity: 0; }
+  60% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+/*# sourceMappingURL=style.css.map */

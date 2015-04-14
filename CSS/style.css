@@ -17,7 +17,7 @@ Template:       virtue_premium
 /* Mixin */
 /*Place Holders*/
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
-#homepageContainer, .entry-content, .postcontent {
+#homepageContainer, [itemprop="description articleBody"], .postcontent {
   -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset, 0 0 0 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset, 0 0 0 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.03) inset, 0 0 0 1px rgba(0, 0, 0, 0.15); }
@@ -286,9 +286,10 @@ a:hover {
 .letterSpacing {
   letter-spacing: 2px; }
 
-.entry-content {
+[itemprop="description articleBody"] {
   background: rgba(255, 255, 255, 0.5);
   padding: 18px;
+  padding-top: 2px;
   border-radius: 9px; }
 
 .post .entry-title,
@@ -356,5 +357,3 @@ a:hover {
   100% {
     transform: scale(1);
     -webkit-transform: scale(1); } }
-
-/*# sourceMappingURL=style.css.map */
